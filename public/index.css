@@ -1,14 +1,27 @@
 html {
-
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     background-color: white;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */}
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
 
-section {
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 4.5px;
+}
+
+.spicy-thai-logo {
+    background-image: url("/resources/images/logos/spicy-thai-express-logo.png");
+    padding: 8px 16px;
+    float: left;
+    width: 20vw;
+}
+
+.section {
     display: block;
     margin: 0px;
     overflow: hidden;
